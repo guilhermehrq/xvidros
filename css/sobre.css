@@ -1,0 +1,70 @@
+@charset="utf-8";
+
+body{
+
+}
+section#corpo-sobre{
+	width: 100%;
+	height: 1000px;
+	margin-bottom: -10px;
+}
+
+div#centralizar-sobre h1{
+	font-size: 30px;
+	margin-bottom:20px;
+	padding: 30px 0 20px 20px;
+}
+div#centralizar-sobre p{
+	margin-bottom: 20px;
+	margin-left: 20px;
+	font-size: 16px;
+	text-align: justify;
+}
+#centralizar-sobre{
+	padding: 20px;
+	height: 850px;
+	width: 72%;
+	margin: 0 auto 95px auto;
+	position: relative;
+	top: 80px;
+	
+	background-color: #fff;
+}
+#centralizar-sobre h1{
+	font-size: 20px;
+	color: #606060;
+}
+#centralizar-sobre h2{
+	font-size: 12pt;
+	color:#606060;
+	background-color: #ddd;
+	padding: 5px 0px 5px 10px;
+	margin: 10px 0px 10px 0px;
+	border-radius: 5px;	
+}
+#centralizar-sobre ul{
+	padding:0px 0px 0px 50px;
+}
+
+div#sobre {
+	height:auto;
+	width:50%;
+	border-right: 1px solid #000;
+	position:relative;
+	float:left;
+	padding:10px;
+}
+aside#ldireito{
+	height:auto;
+	width:45%;
+	position:relative;
+	float:left;
+	padding:0 10px;
+	
+}
+
+#filme{
+	display: block;
+	position: relative;
+	width: 100%;
+}

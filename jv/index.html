@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="motor.js"></script>
+    <title>Jogo da Velha</title>
+</head>
+<body>
+    <div id="menuP">
+        <div id="menu">
+            <h1>Jogo da Velha</h1>
+            <span id="mensagemJogador"></span>
+            <div class="placar">
+                <div id="jogadorX"><span class="esq">X</span> <span class="dir jogadorX">-</span></div>
+                <div id="jogadorO"><span class="esq">O</span> <span class="dir jogadorO">-</span></div>
+            </div>
+
+            <div id="botao">
+                <button onclick="reiniciar()">REINICIAR JOGO</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="jogo">
+        <ul id="casas">
+            <li id="casa0" class="bottomAndRight"></li>
+            <li id="casa1" class="bottomAndRight"></li>
+            <li id="casa2" class="bottom"></li>
+            <li id="casa3" class="bottomAndRight"></li>
+            <li id="casa4" class="bottomAndRight"></li>
+            <li id="casa5" class="bottom"></li>
+            <li id="casa6" class="right"></li>
+            <li id="casa7" class="right"></li>
+            <li id="casa8"></li>
+            <div class="linhaHorizontal">
+                <div class="linhaDiagonal"></div>
+            </div>
+            <div id="velha"><img src="louca-dos-gatos.png"> </div>
+        </ul>
+    </div>
+
+
+</body>
+</html>
